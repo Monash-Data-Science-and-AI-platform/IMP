@@ -1,0 +1,9 @@
+{
+  "files": [
+    "" ,
+    { "name": "model_0_grandmodel.gldb", "size": 61320, "unit": "kb", "description" : "Synthetic dataset"},
+    { "name": "model_1_grandmodel.gldb", "size": 70924, "unit": "kb", "description" : "Synthetic dataset"},
+    { "name": "test.gldb", "size": 83640, "unit": "kb", "description" : "Noisy Yeast"}
+
+  ]
+}

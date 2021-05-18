@@ -1,4 +1,4 @@
-import React, { Fragment, useRef, useEffect, useState, PureComponent } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import './LavaVu-amalgamated.css'
 export const VisViewer = (props) => {
 

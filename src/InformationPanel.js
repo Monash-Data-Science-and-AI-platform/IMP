@@ -24,6 +24,7 @@ export const InformationPanel = () => {
 
 
     const changeInputFile = (newFile) => {
+        console.log(newFile)
         let obj = fileList.find(o => o.name === newFile);
         //set the new file data
         setFileData(obj)
@@ -107,15 +108,13 @@ const ProteomicsPanelSection = ({ proteinData }) => {
             <h3>Proteomics</h3>
             {proteinData ?
                 <table className="proteinList">
-                    <tr> <th>Protein</th> <th>#</th> <th>Probability</th></tr>
+                    <tr><th>Protein</th><th>#</th> <th>Probability</th></tr>
                     {proteinData.map((protein, i) => (
 
                        <tr className="proteinListElement" key={'file' + i} value={protein.name}>
-                      
                                 <td>{protein.name}</td>
                                 <td>{protein.num}</td>
                                 <td>{protein.probability}</td>
-                            
                         </tr>
                     ))}
                 </table>

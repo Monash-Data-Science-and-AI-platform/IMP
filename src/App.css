@@ -74,17 +74,17 @@ html {
 
 .attributeRow {
   display:flex;
-  justify-content: space-between;
   height: 25px;
   padding-top: 5px;
-  width: 70%;
+  width: 99%;
   
 }
 
-.attributeValue {
-  align-self: right;
-  margin-right:0;
+.attributeLabel {
+  min-width: 80px;
+  
 }
+
 
 .proteinList {
   padding-left: 20px;

@@ -1,7 +1,6 @@
 {
   "files": [
     "" ,
-    { "name": "model_1_grandmodel.gldb", "size": 70924, "unit": "kb", "description" : "Synthetic dataset"},
     { "name": "test.gldb", "size": 83640, "unit": "kb", "description" : "Noisy Yeast"},
     { "name": "tomogram_with_bubbles.gldb", "size": 83640, "unit": "kb", "description" : "Noisy Yeast with Nucleosomes and Ribosomes"}
   ]

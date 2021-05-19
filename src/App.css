@@ -98,3 +98,7 @@ html {
   display: flex;
   justify-content: space-between;
 }
+
+iframe{
+  display:block;
+}
